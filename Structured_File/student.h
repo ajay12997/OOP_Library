@@ -1,3 +1,4 @@
+#ifndef STUDENT_H
 #define STUDENT_H
 
 #include "Person.h"
@@ -14,4 +15,6 @@ public:
     void returnBook(Book &book);
     void showInfo() override;
 };
+
+#endif 
 

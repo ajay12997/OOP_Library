@@ -1,9 +1,9 @@
 #include "Book.h"
-#include "constant.h"  // Use of constants
+#include "Constant.h"  // Use constants
 
 // Constructor
 Book::Book(string t, string a, int id) : title(t), author(a), bookID(id), isIssued(false) {
-    bookCounter++;  
+    bookCounter++;  // Static variable increment
 }
 
 void Book::issueBook() {
@@ -11,7 +11,7 @@ void Book::issueBook() {
         isIssued = true;
         cout << title << " has been issued successfully.\n";
     } else {
-        cout << title << " is already issued.\n";
+        cout  << title << " is already issued.\n";
     }
 }
 

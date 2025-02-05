@@ -1,3 +1,4 @@
+#ifndef BOOK_H
 #define BOOK_H
 
 #include <iostream>
@@ -17,3 +18,5 @@ public:
     string getTitle();
     bool getIssuedStatus();
 };
+
+#endif // BOOK_H

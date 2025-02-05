@@ -16,5 +16,5 @@ void Student::returnBook(Book &book) {
 }
 
 void Student::showInfo() {
-    cout << " Student Name: " << name << ", ID: " << personID << "\n";
+    cout << "Student Name: " << name << ", ID: " << personID << "\n";
 }

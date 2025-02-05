@@ -1,4 +1,6 @@
+#ifndef PERSON_H
 #define PERSON_H
+
 #include <iostream>
 using namespace std;
 
@@ -9,7 +11,7 @@ protected:
 
 public:
     Person(string n, int id);
-    virtual void showInfo() = 0;  // virtual function
+    virtual void showInfo() = 0;  // Pure virtual function
 };
 
-
+#endif // PERSON_H

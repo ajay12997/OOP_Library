@@ -1,3 +1,4 @@
+#ifndef LIBRARIAN_H
 #define LIBRARIAN_H
 
 #include "Person.h"
@@ -10,4 +11,6 @@ public:
     void addBook(vector<Book> &library, string title, string author, int id);
     void showInfo() override;
 };
+
+#endif // LIBRARIAN_H
 
